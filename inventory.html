@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+    #all_products{
+      width: 90%;
+      margin: auto;
+      border-top-left-radius:8px;
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap: 20px 20px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    #add_more_product{
+         
+
+    }
+    #seconddiv{
+     border-radius: 8px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+       text-align: center;
+      
+    }
+    a{
+        text-decoration: none;
+        color: white;
+      }
+    .images{
+      width: 100%;
+      margin-bottom: 10px;
+      border-top-left-radius:8px;
+      border-top-right-radius:8px;
+    }
+    h3{
+      margin: 10px;
+    }
+    p{
+      margin: 10px;
+    }
+    #navbar {
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(29, 29, 112);
+      }
+
+      #add_more_product{
+         background-color: rgb(12, 161, 12);
+         border:0px;
+         padding: 10px 15px;
+      }
+    #remove_product{
+      background-color: rgb(232, 52, 52);
+      border:0px;
+      color: white;
+      font-size: 15px;
+      padding: 8px  15px;
+      border-radius: 6px; 
+      font-weight: bold;
+      margin-bottom:  15px;
+    }
+  </style>
+
+  <body>
+    <div id="navbar">
+      <!--Create Add More Product button here, give id as "add_more_product". avoid making spelling mistakes in HTML id's-->
+      <button id="add_more_product"><a href="./index.html">Add More Product</a></button>
+    </div>
+    <div id="all_products">
+      <!--append all products data here in grid format-->
+      <!-- The Remove Product button will have id as "remove_product" -->
+    </div>
+  </body>
+</html>
+
+<script src="./scripts/inventory.js"></script>
